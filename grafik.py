@@ -2,8 +2,6 @@ from counter import Counter
 from tkinter import *
 
 def update_label():
-	global txt_var
-
 	try:
 		lbl.configure(text=str(counter.get_count()))
 	except:
